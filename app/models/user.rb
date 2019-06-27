@@ -1,6 +1,6 @@
 class User < ApplicationRecord
     has_many :microposts
 
-    validates FILL_IN    # Replace FILL_IN with the right code.
-    validates FILL_IN    # Replace FILL_IN with the right code.
+    validates :content, presence: true    # Replace FILL_IN with the right code.
+    validates :user_id, presence: true    # Replace FILL_IN with the right code.
 end
